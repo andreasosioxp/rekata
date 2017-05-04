@@ -5,13 +5,13 @@ import java.util.List;
 public class REFactory {
 	private RE getSubRegEgetNextRegExp(String regexpAsString) {
 		switch(regexpAsString.charAt(0)) {
-			case '.':
+			case PeriodRE.PERIOD_RE_SYMBOL:
 				return new PeriodRE();
-			case '*':
+			case StarRE.STAR_RE_SYMBOL:
 				return new StarRE();
-			case '+':
+			case PlusRE.PLUS_RE_SYMBOL:
 				return new PlusRE();
-			case '"':
+			case RE.ESCAPE_SYMBOL:
 				return new ExactCharRE(regexpAsString.charAt(1));
 			default:
 				return new ExactCharRE(regexpAsString.charAt(0));

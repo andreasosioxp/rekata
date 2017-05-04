@@ -21,9 +21,8 @@ public class CompositeRE extends RE {
 	
 	public String toString() {
 		String result = "";
-		for(RE regExp: regexps) {
+		for(RE regExp: regexps)
 			result += regExp;
-		}
 		return result;
 	}
 }

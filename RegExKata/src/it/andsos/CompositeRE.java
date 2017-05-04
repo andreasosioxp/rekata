@@ -1,3 +1,4 @@
+package it.andsos;
 import java.util.List;
 
 public class CompositeRE extends RE {

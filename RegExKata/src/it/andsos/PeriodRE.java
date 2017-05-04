@@ -1,3 +1,4 @@
+package it.andsos;
 
 public class PeriodRE extends RE {
 	public static final char PERIOD_RE_SYMBOL = '.';

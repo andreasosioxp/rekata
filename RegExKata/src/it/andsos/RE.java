@@ -1,3 +1,4 @@
+package it.andsos;
 
 public abstract class RE {
 	public final static char ESCAPE_SYMBOL = '"';

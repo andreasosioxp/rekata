@@ -1,7 +1,13 @@
+package it.andsos;
 import static org.junit.Assert.*;
 
-import org.junit.Before;
 import org.junit.Test;
+
+import it.andsos.PeriodRE;
+import it.andsos.PlusRE;
+import it.andsos.RE;
+import it.andsos.REParser;
+import it.andsos.StarRE;
 
 public class REParserTest {
 	REParser parser = new REParser();

@@ -1,3 +1,4 @@
+package it.andsos;
 
 public class PlusRE extends RE {
 	public final static char PLUS_RE_SYMBOL='+';

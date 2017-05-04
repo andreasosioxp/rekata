@@ -1,3 +1,4 @@
+package it.andsos;
 
 public class StarRE extends RE {
 	public static final char STAR_RE_SYMBOL = '*';

@@ -1,3 +1,4 @@
+package it.andsos;
 
 public class ExactCharRE extends RE {
 	char exactChar;
